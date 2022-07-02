@@ -1,4 +1,4 @@
+flask
 mysqlclient ~= 2.1.0
 SQLAlchemy ~= 1.4.31
-flask
 pandas
