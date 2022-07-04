@@ -2,7 +2,6 @@ import pandas as pd
 import datetime as dt
 
 def run():
-    print('Hello')
     download_file()
     df = read_file()
     df = convert_to_datetime(df)

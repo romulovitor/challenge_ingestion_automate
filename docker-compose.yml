@@ -32,6 +32,8 @@ services:
   app:
     build: app/.
     command: ["python", "main.py"]
+    depends_on:
+      - database
     ports:
       - "5000:5000"
     volumes:
